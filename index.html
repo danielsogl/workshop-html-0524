@@ -2,51 +2,66 @@
 <html>
   <head>
     <title>Flight Search</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="PoetsenOne-Regular.ttf" />
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    /> -->
   </head>
   <body>
     <head>
-      <h1>Flight Search</h1>
+      <h1 style="color: red">Flight Search</h1>
+      <h2 id="h2-title" style="color: red">Angular Workshop!</h2>
     </head>
     <section>
-      <form>
-        <label for="from"></label>
-        <input type="text" name="from" id="from" />
+      <div class="card">
+        <form>
+          <label for="from"></label>
+          <input type="text" name="from" id="from" />
 
-        <label for="to"></label>
-        <input type="text" name="to" id="to" />
+          <label for="to"></label>
+          <input type="text" name="to" id="to" />
 
-        <button type="submit">Search</button>
-      </form>
+          <button type="submit">Search</button>
+        </form>
+      </div>
     </section>
     <section>
-      <table>
-        <thead>
-          <th>ID</th>
-          <th>From</th>
-          <th>To</th>
-          <th>Date</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>London</td>
-            <td>Berlin</td>
-            <td>01-01-2024</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>London</td>
-            <td>Berlin</td>
-            <td>01-01-2024</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>London</td>
-            <td>Berlin</td>
-            <td>01-01-2024</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="card dotted">
+        <p>Hallo welt</p>
+        <table>
+          <thead>
+            <th>ID</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Date</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>London</td>
+              <td>Berlin</td>
+              <td>01-01-2024</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>London</td>
+              <td>Berlin</td>
+              <td>01-01-2024</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>London</td>
+              <td>Berlin</td>
+              <td>01-01-2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
   </body>
 </html>

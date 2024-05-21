@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Poetsen One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("PoetsenOne-Regular.ttf");
+}
+
+body {
+  background-color: beige;
+  color: darkorange;
+
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+th {
+  color: green;
+}
+
+h1,
+h3,
+h4 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+#h2-title {
+  color: chartreuse !important;
+}
+
+.card {
+  margin-top: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+
+  padding: 16px 8px 16px 8px;
+
+  background-color: deepskyblue;
+
+  border: 2px solid black;
+  border-radius: 8px;
+
+  /* margin: 16px 16px 8px 8px; */
+}
+
+.card p {
+  color: black;
+}
+
+.card {
+  &.dotted {
+    border-style: dotted;
+  }
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+}
